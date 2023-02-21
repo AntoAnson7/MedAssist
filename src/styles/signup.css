@@ -1,0 +1,47 @@
+
+
+.signup-form{
+    background-color: rgba(255,255,255,.6);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35rem;
+    height: 45rem;
+    border: 1px solid silver;
+    border-radius: 30px;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+.signup-form input{
+    width: 25rem;
+    height: 2.5rem;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: 1px solid silver;
+    outline: none;
+}
+.signup-form .submit-btn{
+    width: 8rem;
+    padding: 0;
+}
+.signup-form .email{
+    background-color: rgb(192, 192, 192,0.5);
+    color: #449c44;
+    border: 1px solid #449c44;
+}
+
+
+.radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 1.5rem;
+    /* color: white; */
+}

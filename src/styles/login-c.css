@@ -1,0 +1,145 @@
+body{
+    font-family: sans-serif;
+    background-image: url("../assets/pills.jpg");
+}
+
+.login-div{
+    background-color: rgba(255,255,255,.6);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid silver;
+    width: 35rem;
+    height: 25rem;
+    border-radius: 30px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+/* LOGIN */
+.login{
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    align-items: center;
+    gap: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.login input{
+    width: 25rem;
+    height: 2.5rem;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: 1px solid silver;
+    outline: none;
+}
+.login .pwdin{
+    width: 22.5rem;
+}
+.login .submit-btn{
+    width: 8rem;
+    padding: 0;
+}
+
+.show-pwd{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.show-pwd button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: none;
+    background: white;
+}
+
+
+/* OR */
+.or-box{
+    display: flex;
+    align-items: center;
+}
+.one{
+    border: 1px solid silver;
+    height: 1px;
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+}
+.or{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.two{
+    border: 1px solid silver;
+    height: 1px;
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 20px;
+}
+
+
+
+/* SIGNUP */
+.signup{
+    /* background-color: lightpink; */
+    height: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 20px;
+    gap: 10px;
+    height: 40px;
+    width: 13rem; 
+
+}
+.signup button .ggl{
+    font-size: 30px; 
+}
+
+/* ERROR */
+.err{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #FF3333;
+    width: 300px;
+    height: 30px;
+    font-size: smaller;
+    font-weight: bold;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.err2{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #FF3333;
+    width: 400px;
+    height: 30px;
+    font-size: smaller;
+    font-weight: bold;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+}
